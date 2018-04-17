@@ -6,7 +6,6 @@
 
 html{
 	height: 100%;
-	min-height: 3000px;
 }
 
 body{
@@ -58,6 +57,10 @@ header.floating .logo h1{
 	font-size: 20pt;
 }
 
+header a{
+	color: inherit;
+}
+
 header section{
 	display: flex;
 	align-items: center;
@@ -76,17 +79,17 @@ nav a:hover{
 }
 
 a{
-	color: inherit;
+	color: #6B0504;
+	transition: color 200ms;
+}
+
+a:hover{
+	color: #4A8C8E;
 }
 
 p{
 	line-height: 1.7;
 }
-
-a:hover{
-	color: #ba3f1d;
-}
-
 .logo{
 	display: flex;
 	align-items: center;
@@ -118,7 +121,7 @@ a:hover{
 	color: inherit;
 }
 
-h1, h2{
+h1, h2, h3{
 	font-family: 'Forum', cursive;
 	color: #6B0504;
 	font-weight: 700;
@@ -131,49 +134,109 @@ h1{
 h2{
 	font-size: 25pt;
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3{
+	color: #241023;
+	font-size: 20pt;
 }
 
 footer{
-	background: #222;
-	color: white;
-	padding: 30px 10px;
+	background: #241023;
+	color: #F3F4E8;
+	padding: 50px 10px;
+	margin-top: 80px;
 }
 
 .button{
-	display: inline-block;
-	padding: 10px 16px;
 	border: 1px solid transparent;
+	display: inline-block;
+	padding: 10px 20px;
 	color: white;
-	background: #80a1c1;
-	border-radius: 5px;
+	background: #6B0504;
+	border-radius: 1000px;
 	text-decoration: none;
+	transition: all 200ms;
 }
 
 .button:hover{
-	background: #ba3f1d;
+	background: #241023;
 	color: white;
 }
 
 .button.secondary{
-	border-color: #80a1c1;
-	color: #80a1c1;
+	color: #6B0504;
 	background: transparent;
 }
 
 .button.secondary:hover{
 	text-decoration: underline;
+	color: #241023;
 }
 
 .button.big{
 	font-size: 16pt;
 	padding: 15px 25px;
-	border-radius: 1000px;
 	margin: 5px;
 }
 
 .card{
 	background: white;
 	border-radius: 5px;
-	padding: 30px 20px;
+	padding: 40px 30px;
 	box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card > .action{
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.offer{
+	display: flex;
+	border-bottom: 1px solid lightgray;
+	padding: 50px 0px;
+}
+
+.offer .info{
+	display: flex;
+	flex-flow: column;
+}
+
+.offer p{
+	margin: auto 0px;
+}
+
+.offer .image{
+	margin-left: 15px;
+}
+
+.offer img{
+	width: 400px;
+	height: auto;
+	border: 4px solid white;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.offer.last{
+	border-bottom: none;
+}
+
+.offer .basic-info{
+	color: #4A8C8E;
+	font-size: 15pt;
+}
+
+.offer .basic-info span{
+	margin-right: 15px;
+}
+
+.offer .basic-info span *:first-of-type{
+	margin-right: 5px;
+}
+
+.offer p{
+	padding: 10px 0px;
 }

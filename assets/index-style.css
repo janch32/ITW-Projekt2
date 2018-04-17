@@ -1,0 +1,63 @@
+body{
+	margin-top: 0px;
+}
+
+#hero{
+	text-align: center;
+	background: url("img/hero-foreground.png"), url("img/hero.jpg");
+	min-height: 90vh;
+	background-size: auto, cover;
+	background-position: center 0px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding-top: 150px;
+	padding-bottom: 200px;
+}
+
+#hero h2{
+	font-size: 35pt;
+	color: inherit;
+	text-shadow: 2px 2px 5px #000000;
+	margin-top: 30px;
+}
+
+#hero p{
+	max-width: 700px;
+	margin: 50px 10px;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+#hero .buttons{
+	margin: 30px 0px;
+}
+
+#hero .button{
+	background: white;
+	color: black;
+	box-shadow: 2px 2px 1px #000000
+}
+
+#hero .button.secondary{
+	border-color: white;
+	color: white;
+	text-shadow: 2px 2px 1px #000000;
+	box-shadow: 1px 1px 2px #000000, inset 1px 1px 2px #000000;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+header{
+	background: linear-gradient(to bottom, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0) 100%);
+	padding-bottom: 20px;
+}
+
+header.floating{
+	background: #241023;
+}
+
+#nabidky{
+	margin-top: -130px;
+	min-height: 500px;
+}

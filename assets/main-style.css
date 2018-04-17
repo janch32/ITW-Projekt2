@@ -1,0 +1,179 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	min-height: 3000px;
+}
+
+body{
+	background: #F3F4E8;
+	display: flex;
+	flex-flow: column;
+	min-height: 100%;
+	font-family: 'PT Serif', serif;
+	font-size: 14pt;
+	margin-top: 160px;
+}
+
+main{
+	margin-bottom: auto;
+}
+
+section{
+	max-width: 1200px;
+	margin: 0px auto;
+}
+
+header{
+	background: #241023;
+	color: #F3F4E8;
+	padding: 40px 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	width: 100%;
+	transition: padding 200ms, font-size 200ms;
+}
+
+header.floating{
+	padding: 10px;
+	font-size: 13pt;
+}
+
+header.floating .logo .motto{
+	font-size: 0;
+	opacity: 0;
+}
+
+header.floating .logo img{
+	height: 35px;
+}
+
+header.floating .logo h1{
+	font-size: 20pt;
+}
+
+header section{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav a{
+	display: inline-block;
+	padding: 5px 15px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: inherit;
+}
+
+a{
+	color: inherit;
+}
+
+p{
+	line-height: 1.7;
+}
+
+a:hover{
+	color: #ba3f1d;
+}
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+
+.logo img{
+	height: 70px;
+	width: auto;
+	margin-right: 10px;
+	transition: height 200ms;
+}
+
+.logo a{
+	text-decoration: none;
+}
+
+.logo .motto{
+	overflow: hidden;
+	transition: opacity 200ms;
+}
+
+.logo h1{
+	transition: all 200ms;
+	color: #F9DBBD;
+}
+
+.logo a:hover{
+	text-decoration: underline;
+	color: inherit;
+}
+
+h1, h2{
+	font-family: 'Forum', cursive;
+	color: #6B0504;
+	font-weight: 700;
+}
+
+h1{
+	font-size: 30pt;
+}
+
+h2{
+	font-size: 25pt;
+	text-align: center;
+}
+
+footer{
+	background: #222;
+	color: white;
+	padding: 30px 10px;
+}
+
+.button{
+	display: inline-block;
+	padding: 10px 16px;
+	border: 1px solid transparent;
+	color: white;
+	background: #80a1c1;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.button:hover{
+	background: #ba3f1d;
+	color: white;
+}
+
+.button.secondary{
+	border-color: #80a1c1;
+	color: #80a1c1;
+	background: transparent;
+}
+
+.button.secondary:hover{
+	text-decoration: underline;
+}
+
+.button.big{
+	font-size: 16pt;
+	padding: 15px 25px;
+	border-radius: 1000px;
+	margin: 5px;
+}
+
+.card{
+	background: white;
+	border-radius: 5px;
+	padding: 30px 20px;
+	box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.2);
+}

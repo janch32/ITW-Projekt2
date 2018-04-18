@@ -15,11 +15,11 @@ body{
 	min-height: 100%;
 	font-family: 'PT Serif', serif;
 	font-size: 14pt;
-	margin-top: 160px;
 }
 
 main{
 	margin-bottom: auto;
+	margin-top: 160px;
 }
 
 section{
@@ -67,13 +67,13 @@ header section{
 	justify-content: space-between;
 }
 
-nav a{
+header nav a{
 	display: inline-block;
 	padding: 5px 15px;
 	text-decoration: none;
 }
 
-nav a:hover{
+header nav a:hover{
 	text-decoration: underline;
 	color: inherit;
 }
@@ -148,6 +148,58 @@ footer{
 	color: #F3F4E8;
 	padding: 50px 10px;
 	margin-top: 80px;
+	padding-bottom: 20px;
+	display: flex;
+}
+
+#copyright{
+	opacity: 0.6;
+	clear: both;
+	text-align: center;
+	margin-top: 30px;
+}
+
+footer h3{
+	color: #978397;
+	padding-bottom: 10px;
+}
+
+footer a{
+	color: inherit;
+}
+
+footer nav{
+	display: flex;
+	flex-flow: column;
+}
+
+footer nav a{
+	margin-bottom: 5px;
+	text-decoration: none;
+}
+
+footer .social{
+	margin-left: 200px;
+	float: right;
+	display: flex;
+	flex-flow: column;
+}
+
+footer .social a{
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	margin-bottom: 20px;
+	margin-right: auto;
+}
+
+footer .social a:last-of-type{
+	margin-bottom: 0px;
+}
+*
+footer .social i{
+	font-size: 25pt;
+	margin-right: 8px;
 }
 
 .button{
@@ -211,13 +263,25 @@ footer{
 
 .offer .image{
 	margin-left: 15px;
+	border: 4px solid white;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+	position: relative;
+}
+
+.offer .image a{
+	text-decoration: none;
+	display: inline-block;
+	-position: absolute;
+	-right: 0px;
+	-bottom: 20px;
+	-background: white;
+	margin: 5px 10px;
+	border-radius: 5px 0px 0px 5px;
 }
 
 .offer img{
 	width: 400px;
 	height: auto;
-	border: 4px solid white;
-	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .offer.last{

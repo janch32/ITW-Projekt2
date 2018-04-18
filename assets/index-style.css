@@ -111,9 +111,31 @@ header.floating{
 	top: 0px;
 }
 
-#reference{
+#reference-container{
 	margin-top: 50px;
 	margin-bottom: 150px;
+}
+
+#references{
+	max-width: 1000px;
+	margin: 20px auto;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.reference{
+	font-size: 18pt;
+}
+
+.reference .customer{
+	text-align: right;
+	padding-right: 50px;
+	color: #4A8C8E;
+}
+
+.reference .customer:before{
+	content: '—';
+	margin-right: 5px;
 }
 
 #kontakt{

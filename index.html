@@ -20,10 +20,30 @@
 					</div>
 				</div>
 				<nav>
-					<a href="index.html">Hlavní strana</a>
-					<a href="nabidky.html">Nabídky</a>
-					<a href="nase-sluzby.html">Služby</a>
-					<a href="kontakt.html">Kontakt</a>
+					<a class="menuitem" href="index.html">Hlavní strana</a>
+					<span class="menuitem dropdown">
+						<a href="nabidky.html">Nabídky</a>
+						<div class="dropcontainer">
+							<a href="nabidky.html">Všechny nemovistosti</a>
+							<a href="nabidky-pronajem.html">Nemovistosti k pronájmu</a>
+							<a href="nabidky-koupeni.html">Nemovistosti ke koupi</a>
+						</div>
+					</span>
+					<span class="menuitem dropdown">
+						<a href="nase-sluzby.html">Služby</a>
+						<div class="dropcontainer">
+							<a href="prodej-nemovitosti.html">Chci prodat nemovitost</a>
+							<a href="nase-sluzby.html">Naše služby</a>
+						</div>
+					</span>
+					<span class="menuitem dropdown">
+						<a href="o-nas.html">O nás</a>
+						<div class="dropcontainer">
+								<a href="o-nas.html">Společnost</a>
+							<a href="kontakt.html">Kontakt</a>
+							<a href="pracovni-pozice.html">Kariéra</a>
+						</div>
+					</span>
 				</nav>
 			</section>
 		</header>
@@ -41,14 +61,14 @@
 		</div>
 		<main>
 			<section class="card" id="nabidky">
-				<h2>Vybrané nabídky</h2>
+				<h2>Právě přidané nabídky</h2>
 				<div class="offer">
 					<div class="info">
 							<h3>Pronájem bytu 2+kk v klidné lokalitě, 65m²</h3>
 							<div class="basic-info">
 								<span class="cena"><i class="far fa-credit-card"></i>12 000 Kč/měsíc</span>
 								<span class="lokalita"><i class="fas fa-map-marker-alt"></i>Brno-Řečkovice</span>
-								<span class="pridano"><i class="fas fa-clock"></i>Přidáno před týdnem</span>
+								<span class="pridano"><i class="fas fa-clock"></i>Přidáno dnes</span>
 							</div>
 							<p>
 								Donec nisi tortor, posuere non quam ut, tincidunt convallis leo. Vestibulum id ante ac elit pretium volutpat. Nunc ac augue a metus auctor finibus id nec nunc. Pellentesque quis turpis arcu. Fusce sodales tortor arcu. Suspendisse et dolor mattis, pellentesque nisi sed, faucibus mauris.
@@ -71,7 +91,7 @@
 							<div class="basic-info">
 								<span class="cena"><i class="far fa-credit-card"></i>14 000 Kč/měsíc</span>
 								<span class="lokalita"><i class="fas fa-map-marker-alt"></i>Brno-Královo pole</span>
-								<span class="pridano"><i class="fas fa-clock"></i>Přidáno tento měsíc</span>
+								<span class="pridano"><i class="fas fa-clock"></i>Přidáno dnes</span>
 							</div>
 							<p>
 								Maecenas a ipsum hendrerit, gravida augue a, sollicitudin magna. Maecenas orci neque, venenatis vitae imperdiet id, eleifend id lectus. Donec condimentum felis in molestie ornare. In eu dictum ex. Duis ac magna ac velit sollicitudin dapibus a in tortor. Vestibulum finibus semper enim sed vestibulum.
@@ -94,7 +114,7 @@
 							<div class="basic-info">
 								<span class="cena"><i class="far fa-credit-card"></i>1 900 000 Kč</span>
 								<span class="lokalita"><i class="fas fa-map-marker-alt"></i>Brno-Žabovřesky</span>
-								<span class="pridano"><i class="fas fa-clock"></i>Přidáno dnes</span>
+								<span class="pridano"><i class="fas fa-clock"></i>Přidáno včera</span>
 							</div>
 							<p>
 								Nullam posuere gravida sapien, ut iaculis enim sollicitudin sit amet. Cras id nulla sed purus placerat efficitur. Integer tristique dapibus varius. Duis at consequat ligula, sed fringilla ligula. Proin gravida risus non tempus porttitor. Cras lacinia ex vitae ligula mattis congue.
@@ -137,6 +157,7 @@
 			<div id="kontakt">
 				<section>
 					<h2>Kontaktujte nás</h2>
+					<p></p>
 				</section>
 			</div>
 		</main>
@@ -160,7 +181,7 @@
 					<h3>Kontakt</h3>
 					<a href="#"><i class="fas fa-envelope"></i> info@bezzapoctu.cz</a>
 					<span><i class="fas fa-phone"></i> 516 111 222</span>
-					<span><i class="fas fa-map-marker-alt"></i> <span>Božetěchova 1/2,<br>612 00 Brno-Královo pole</span></span>
+					<a href="https://goo.gl/maps/xEcPQcMgN8R2" target="_blank"><i class="fas fa-map-marker-alt"></i> <span>Božetěchova 1/2,<br>612 00 Brno-Královo pole</span></a>
 				</div>
 				<div id="copyright">&copy; Realitní kancelář Bezzápočtu, 2018</div>
 			</section>

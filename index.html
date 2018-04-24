@@ -15,7 +15,7 @@
 				<div class="logo">
 					<img src="assets/img/logo.png" alt="Logo společnosti">
 					<div>
-						<h1><a href="index.html">Realitní kancelář Bezzápočtu</a></h1>
+						<h1><a href="/">Realitní kancelář Bezzápočtu</a></h1>
 						<div class="motto">Prodejte vaši nemovitost ještě dnes</div>
 					</div>
 				</div>
@@ -72,11 +72,11 @@
 							</div>
 							<p>
 								Donec nisi tortor, posuere non quam ut, tincidunt convallis leo. Vestibulum id ante ac elit pretium volutpat. Nunc ac augue a metus auctor finibus id nec nunc. Pellentesque quis turpis arcu. Fusce sodales tortor arcu. Suspendisse et dolor mattis, pellentesque nisi sed, faucibus mauris.
-								<a href="">Zobrazit více</a>
+								<a href="#">Zobrazit více</a>
 							</p>
 							<div class="action">
-								<a href="" class="button">Mám zájem</a>
-								<a href="" class="button secondary">Sledovat</a>
+								<a href="#" class="button">Mám zájem</a>
+								<a href="#" class="button secondary">Sledovat</a>
 							</div>
 					</div>
 					<div class="image">
@@ -95,11 +95,11 @@
 							</div>
 							<p>
 								Maecenas a ipsum hendrerit, gravida augue a, sollicitudin magna. Maecenas orci neque, venenatis vitae imperdiet id, eleifend id lectus. Donec condimentum felis in molestie ornare. In eu dictum ex. Duis ac magna ac velit sollicitudin dapibus a in tortor. Vestibulum finibus semper enim sed vestibulum.
-								<a href="">Zobrazit více</a>
+								<a href="#">Zobrazit více</a>
 							</p>
 							<div class="action">
-								<a href="" class="button">Mám zájem</a>
-								<a href="" class="button secondary">Sledovat</a>
+								<a href="#" class="button">Mám zájem</a>
+								<a href="#" class="button secondary">Sledovat</a>
 							</div>
 					</div>
 					<div class="image">
@@ -118,11 +118,11 @@
 							</div>
 							<p>
 								Nullam posuere gravida sapien, ut iaculis enim sollicitudin sit amet. Cras id nulla sed purus placerat efficitur. Integer tristique dapibus varius. Duis at consequat ligula, sed fringilla ligula. Proin gravida risus non tempus porttitor. Cras lacinia ex vitae ligula mattis congue.
-								<a href="">Zobrazit více</a>
+								<a href="#">Zobrazit více</a>
 							</p>
 							<div class="action">
-								<a href="" class="button">Mám zájem</a>
-								<a href="" class="button secondary">Sledovat</a>
+								<a href="#" class="button">Mám zájem</a>
+								<a href="#" class="button secondary">Sledovat</a>
 							</div>
 					</div>
 					<div class="image">
@@ -132,7 +132,7 @@
 					</div>
 				</div>
 				<div class="action">
-					<a href="" class="button big">Zobrazit více nabídek</a>
+					<a href="nabidky.html" class="button big">Zobrazit více nabídek</a>
 				</div>
 			</section>
 			<div id="brno">
@@ -156,8 +156,16 @@
 			</section>
 			<div id="kontakt">
 				<section>
-					<h2>Kontaktujte nás</h2>
-					<p></p>
+					<form>
+						<h2>Kontaktujte nás</h2>
+						<p>Ut sodales felis vitae eros iaculis commodo. Nunc sed lorem vel tortor maximus aliquet ac in dui. Suspendisse scelerisque dolor ante, viverra dignissim massa posuere eget. Pellentesque aliquam eros a diam ullamcorper feugiat. Sed a leo at massa eleifend consequat.</p>
+						<label for="sender-message">Váš e-mail (pro odpověď)</label>
+						<input type="email" placeholder="vas@email.cz" id="sender-message" required name="sender-message">
+						<textarea name="message" placeholder="Text vaší zprávy..." required></textarea>
+						<div class="action">
+							<input type="submit" class="button big alternative" name="send-message" value="Odeslat zprávu">
+						</div>
+					</form>
 				</section>
 			</div>
 		</main>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="cs">
 		<head>
 			<meta charset="utf-8">
 			<meta name="viewport" content="initial-scale=1.0">
@@ -14,7 +14,7 @@
 				<div class="logo">
 					<img src="assets/img/logo.png">
 					<div>
-						<h1><a href="index.html">Realitní kancelář Bezzápočtu</a></h1>
+						<h1><a href="/">Realitní kancelář Bezzápočtu</a></h1>
 						<div class="motto">Prodejte vaši nemovitost ještě dnes</div>
 					</div>
 				</div>
@@ -47,9 +47,36 @@
 			</section>
 		</header>
 		<main>
+			<div class="content-top">
+				<section class="contact first">
+					<h1>Kontakt</h1>
+					<p>Pellentesque dictum dolor id sapien volutpat interdum. Vivamus dictum, augue quis iaculis porta, dui metus dignissim ex, vel ultrices purus massa eget magna. Maecenas lacus orci, sollicitudin nec eleifend a, rutrum condimentum nunc.</p>
+					
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.65431707272!2d16.59358801601644!3d49.226082582699746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471294099dc06bbb%3A0xbfcf161b01a48b0d!2zVnlzb2vDqSB1xI1lbsOtIHRlY2huaWNrw6kgQnJubyAtIEZha3VsdGEgaW5mb3JtYcSNbsOtY2ggdGVjaG5vbG9nacOt!5e0!3m2!1scs!2scz!4v1524607507248" height="400" width="700" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<div class="contact-address">
+						<i class="fas fa-map-marker-alt"></i>
+						Božetěchova 1/2<br>612 00 Brno-Královo pole
+					</div>
+					<div class="contact-email">
+						<i class="fas fa-envelope"></i>
+						info@bezzapoctu.cz
+					</div>
+					<div class="contact-email">
+						<i class="fas fa-phone"></i>
+						+420 516 111 222
+					</div>
+				</section>
+			</div>
 			<section>
-				<h2>Jak nás kontaktovat</h2>
-				<p>Nijag. HEHEHE</p>
+				<form>
+					<h2>Kontaktní formulář</h2>
+					<label for="sender-message">Váš e-mail (pro odpověď)</label>
+					<input type="email" placeholder="vas@email.cz" id="sender-message" required name="sender-message">
+					<textarea name="message" placeholder="Text vaší zprávy..." required></textarea>
+					<div class="action">
+						<input type="submit" class="button big" name="send-message" value="Odeslat zprávu">
+					</div>
+				</form>
 			</section>
 		</main>
 		<footer>

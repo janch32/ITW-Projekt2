@@ -591,3 +591,10 @@ iframe{
 	margin-right: 10px;
 	color: #4A8C8E;
 }
+
+/* Mapa webu ------------------------ */
+
+.mapa ul{
+	padding-left: 40px;
+	font-size: 20pt;
+}

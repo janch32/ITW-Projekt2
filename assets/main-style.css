@@ -599,3 +599,60 @@ iframe{
 	padding-left: 40px;
 	font-size: 20pt;
 }
+
+/* Naše služby ---------------------- */
+
+.sluzby.card h2{
+	margin-top: 80px;
+	margin-bottom: 10px;
+	text-align: left;
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sluzby.card h2:first-of-type{
+	margin-top: 30px;
+}
+
+.sluzby.card i{
+	float: right;
+	margin-left: 20px;
+	font-size: 80pt;
+	color: #4A8C8E;
+	width: 150px;
+	height: 130px;
+	text-align: center;
+}
+
+.sluzby.card .action{
+	margin-top: 60px;
+}
+
+
+
+
+/* Styl pro tisk ---------------------- */
+
+@media print{
+	main{
+		margin-top: 0px;
+	}
+
+	.card{
+		box-shadow: none;
+		border: 1px solid lightgray;
+	}
+
+	body{
+		background: initial;
+	}
+
+	header{
+		display: none;
+	}
+
+	footer{
+		display: none;
+	}
+}

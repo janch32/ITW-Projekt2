@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="cs">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Forum|PT+Serif:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
-		<link rel="stylesheet" href="assets/main-style.css">
-		<link rel="stylesheet" href="assets/index-style.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-		<title>Realitní kancelář Bezzápočtu</title>
-	</head>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="initial-scale=1.0">
+			<link href="https://fonts.googleapis.com/css?family=Forum|PT+Serif:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+			<link rel="stylesheet" href="assets/main-style.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+			<title>Nabídky pronájmu | Realitní kancelář Bezzápočtu</title>
+		</head>
 	<body>
 		<header>
 			<section>
 				<div class="logo">
-					<img src="assets/img/logo.png" alt="Logo společnosti">
+					<img src="assets/img/logo.png">
 					<div>
 						<h1><a href="/">Realitní kancelář Bezzápočtu</a></h1>
 						<div class="motto">Prodejte vaši nemovitost ještě dnes</div>
@@ -47,21 +46,20 @@
 				</nav>
 			</section>
 		</header>
-		<div id="hero">
-			<h2>
-				Miliardy lidů díky nám našli nový domov
-			</h2>
-			<p>
-				Phasellus faucibus molestie nisl. Nulla est. Proin in tellus sit amet nibh dignissim sagittis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis condimentum augue id magna semper rutrum. Nullam eget nisl. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil.
-			</p>
-			<div class="buttons">
-				<a href="nabidky.html" class="button big">Prohlížet nemovitosti</a>
-				<a href="prodej-nemovitosti.html" class="button big secondary">Přidat nabídku</a>
-			</div>
-		</div>
 		<main>
+			<div class="content-top">
+				<section class="first">
+					<h1>Nabídky nemovitostí k pronájmu</h1>
+					<p>Mauris at laoreet ante. Nunc quis condimentum eros, id mattis ante. Nulla tortor massa, sagittis id suscipit in, fermentum ac magna. Sed tincidunt venenatis pellentesque. Phasellus rutrum, metus sit amet semper ultricies, mauris velit venenatis libero.</p>
+					<div class="action">
+						<h2>Omezit zobrazení na</h2> 
+						<a href="nabidky.html" class="button">Všechny nabídky</a>
+						<a href="nabidky-pronajem.html" class="button disabled">Pronájem nemovitostí</a>
+						<a href="nabidky-nakup.html" class="button">Nákup nemovitostí</a>
+					</div>
+				</section>
+			</div>
 			<section class="card" id="nabidky">
-				<h2>Právě přidané nabídky</h2>
 				<div class="offer">
 					<div class="info">
 							<h3>Pronájem bytu 2+kk v klidné lokalitě, 65m²</h3>
@@ -106,14 +104,14 @@
 				</div>
 				<div class="offer last">
 					<div class="info">
-							<h3>Nově rekonstruovaný byt 1+1, 55m²</h3>
+							<h3>Pronájem letní chaty, pozemek 420m²</h3>
 							<div class="basic-info">
-								<span class="cena"><i class="far fa-credit-card"></i>1 900 000 Kč</span>
-								<span class="lokalita"><i class="fas fa-map-marker-alt"></i>Brno-Žabovřesky</span>
-								<span class="pridano"><i class="fas fa-clock"></i>Přidáno včera</span>
+								<span class="cena"><i class="far fa-credit-card"></i>5 000 Kč/měsíc</span>
+								<span class="lokalita"><i class="fas fa-map-marker-alt"></i>Újezd u Brna</span>
+								<span class="pridano"><i class="fas fa-clock"></i>Přidáno dnes</span>
 							</div>
 							<p>
-								Nullam posuere gravida sapien, ut iaculis enim sollicitudin sit amet. Cras id nulla sed purus placerat efficitur. Integer tristique dapibus varius. Duis at consequat ligula, sed fringilla ligula. Proin gravida risus non tempus porttitor. Cras lacinia ex vitae ligula mattis congue.
+								Donec nisi tortor, posuere non quam ut, tincidunt convallis leo. Vestibulum id ante ac elit pretium volutpat. Nunc ac augue a metus auctor finibus id nec nunc. Pellentesque quis turpis arcu. Fusce sodales tortor arcu. Suspendisse et dolor mattis, pellentesque nisi sed, faucibus mauris.
 								<a href="#">Zobrazit více</a>
 							</p>
 							<div class="action">
@@ -122,46 +120,13 @@
 							</div>
 					</div>
 					<div class="image">
-						<img src="assets/property/property-2.jpg" alt="Nabidka nemovistosti">
+						<img src="assets/property/property-8.jpg" alt="Nabidka nemovistosti">
 					</div>
 				</div>
 				<div class="action">
-					<a href="nabidky.html" class="button big">Zobrazit více nabídek</a>
+					<a class="button big disabled">Všechny nabídky načteny</a>
 				</div>
 			</section>
-			<div id="brno">
-				<section>
-					<div class="card">
-						<h2>Specializujeme se na Brno a okolí</h2>
-						<p>
-							In id consectetur justo. Pellentesque turpis sapien, consequat non pellentesque hendrerit, venenatis ac urna. Donec sed diam sagittis purus varius interdum. Fusce vestibulum justo sit amet eleifend rhoncus. Pellentesque vitae tempor nulla. Fusce malesuada lectus quis mauris sodales hendrerit. Pellentesque non risus a est volutpat facilisis ac ut ex.
-						</p>
-					</div>
-				</section>
-			</div>
-			<section id="reference-container">
-				<h2>Zkušenosti našich zákazníků</h2>
-				<div id="references" class="card">
-						<div class="reference">
-							<p class="quotation">Maecenas tincidunt ultrices mauris id placerat. Sed condimentum nulla ut nisi maximus dapibus. Duis sodales at ante nec elementum.</p>
-							<div class="customer">Katka, majitelka nového bytu</div>
-						</div>
-				</div>
-			</section>
-			<div id="kontakt">
-				<section>
-					<form>
-						<h2>Kontaktujte nás</h2>
-						<p>Ut sodales felis vitae eros iaculis commodo. Nunc sed lorem vel tortor maximus aliquet ac in dui. Suspendisse scelerisque dolor ante, viverra dignissim massa posuere eget. Pellentesque aliquam eros a diam ullamcorper feugiat. Sed a leo at massa eleifend consequat.</p>
-						<label for="sender-message">Váš e-mail (pro odpověď)</label>
-						<input type="email" placeholder="vas@email.cz" id="sender-message" required name="sender-message">
-						<textarea name="message" placeholder="Text vaší zprávy..." required></textarea>
-						<div class="action">
-							<input type="submit" class="button big alternative" name="send-message" value="Odeslat zprávu">
-						</div>
-					</form>
-				</section>
-			</div>
 		</main>
 		<footer>
 			<section>

@@ -318,6 +318,13 @@ footer .social i{
 	margin: 5px;
 }
 
+.button.disabled{
+	background: transparent;
+	border: 1px solid #978397;
+	color: #978397;
+	cursor: default;
+}
+
 .card{
 	background: white;
 	border-radius: 5px;
@@ -409,6 +416,11 @@ main .content-top{
 	text-align: center;
 	padding-bottom: 30px;
 	color: #241023;
+}
+
+.content-top .action{
+	margin-top: 60px;
+	margin-bottom: -60px;
 }
 
 input, textarea{

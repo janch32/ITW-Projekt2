@@ -146,6 +146,45 @@ header.floating{
 	margin-right: 5px;
 }
 
+#deal{
+	box-shadow: inset 0px 200px 100px -100px #F3F4E8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 900px;
+	max-height: 1200px;
+	height: 110vh;
+	color: black;
+	display: flex;
+	overflow: hidden;
+}
+
+#deal section{
+	margin: auto;
+	width: 100%;
+}
+
+#deal h2{
+	text-align: left;
+}
+
+#deal .card{
+	max-width: 600px;
+	display: inline-block;
+	position: relative;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+#deal .card:after{
+	content: '';
+	background: inherit;
+	position: absolute;
+	height: 100%;
+	width: 100vh;
+	left: -100vh;
+	top: 0px;
+}
+
 #kontakt{
 	background: #4A8C8E;
 	padding-bottom: 150px;

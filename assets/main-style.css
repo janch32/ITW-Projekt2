@@ -133,13 +133,30 @@ header.floating .dropcontainer a{
 	margin: 20px 25px;
 }
 
-a{
+a, .toggleshow{
 	color: #6B0504;
 	transition: color 200ms;
 }
 
-a:hover{
+a:hover, .toggleshow:hover{
 	color: #4A8C8E;
+}
+
+.toggleshow{
+	text-decoration: underline;
+	cursor: pointer; 
+}
+
+.toggleshow:before{
+	content: "Zobrazit méně";
+}
+
+.hide .toggleshow:before{
+	content: "Zobrazit více";
+}
+
+.hide .extra{
+	display: none;
 }
 
 p{
@@ -341,7 +358,7 @@ footer .social i{
  .action{
 	text-align: center;
 	padding: 20px 0px;
-}
+ }
 
 .offer{
 	display: flex;
@@ -423,7 +440,7 @@ main .content-top{
 	margin-bottom: -60px;
 }
 
-input, textarea{
+input, textarea, select{
 	font-family: inherit;
 	font-size: inherit;
 }
@@ -433,7 +450,7 @@ label{
 	font-size: 13pt;
 }
 
-input[type=text], input[type=email]{
+input[type=text], input[type=email], select{
 	padding: 10px 20px;
 	min-width: 300px;
 	border: 1px solid lightgray;
@@ -629,8 +646,27 @@ iframe{
 	margin-top: 60px;
 }
 
+/* Prodej nemovitosti ----------------- */
 
+.sell.action{
+	margin-top: 20px;
+	margin-bottom: -40px;
+}
 
+#deal{
+	background: url("img/purchase.jpg");
+	background-size: cover;
+	background-position: center 0px;
+	min-height: 100vh;
+	margin-top: -60px;
+	padding-top: 80px;
+	margin-bottom: -80px;
+	padding-bottom: 80px;
+}
+
+#deal .forminput{
+	margin-bottom: 10px;
+}
 
 /* Styl pro tisk ---------------------- */
 

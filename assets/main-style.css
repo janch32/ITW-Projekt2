@@ -15,7 +15,7 @@ body{
 	min-height: 100%;
 	font-family: 'PT Serif', serif;
 	font-size: 14pt;
-	min-width: 1000px;
+	min-width: 1200px;
 }
 
 main{
@@ -690,5 +690,12 @@ iframe{
 
 	footer{
 		display: none;
+	}
+}
+
+@media(max-width: 1200px){
+	header{
+		position: absolute !important;
+		width: 1200px;
 	}
 }
